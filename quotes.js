@@ -1,6 +1,6 @@
 const localQuotes = [
   {
-    text: 'Shawty Imma party till the sun down'
+    text: 'Shawty Imma party till the sun down' ,
     author: 'Sehun, EXO, Love Me Right',
   },
   {
