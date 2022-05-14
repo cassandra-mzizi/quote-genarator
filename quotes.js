@@ -1,554 +1,319 @@
 const localQuotes = [
   {
-    text: 'Genius is one percent inspiration and ninety-nine percent perspiration.',
-    author: 'Thomas Edison',
+    text: 'Shawty Imma party till the sun down'
+    author: 'Sehun, EXO, Love Me Right',
   },
   {
-    text: 'You can observe a lot just by watching.',
-    author: 'Yogi Berra',
+    text: 'Risky Risky, Wiggi wiggy, this is an emergency.',
+    author: 'Chaeyoung, Twice, Cant Stop Me',
   },
   {
-    text: 'A house divided against itself cannot stand.',
-    author: 'Abraham Lincoln',
+    text: 'Cookin like a chef, I am a 5 star Michelin.',
+    author: 'Felix, Stray Kids, Gods Menu',
   },
   {
-    text: 'Difficulties increase the nearer we get to the goal.',
-    author: 'Johann Wolfgang von Goethe',
+    text: 'Bless me ah-choo.',
+    author: 'Jungwoo, NCT 127, Simon Says'
   },
   {
-    text: 'Fate is in your hands and no one elses',
-    author: 'Byron Pulsifer',
+    text: 'Shimmie, shimmie ko ko bop, I think I like it',
+    author: 'Baekhyun, EXO, Ko Ko Bop',
   },
   {
-    text: 'Be the chief but never the lord.',
-    author: 'Lao Tzu',
+    text: 'BLACKPINK in your area.',
+    author: 'BLACKPINK',
   },
   {
-    text: 'Nothing happens unless first we dream.',
-    author: 'Carl Sandburg',
+    text: 'Your dog speaks chinese?',
+    author: 'Eric Nam',
   },
   {
-    text: 'Well begun is half done.',
-    author: 'Aristotle',
+    text: 'You’re embarrassing me!',
+    author: 'Krystal, F(X)',
   },
   {
-    text: 'Life is a learning experience, only if you learn.',
-    author: 'Yogi Berra',
+    text: 'Stob it!.',
+    author: 'Jin, BTS',
   },
   {
-    text: 'Self-complacency is fatal to progress.',
-    author: 'Margaret Sangster',
+    text: 'Do you know what else is BiG?.... My Feet',
+    author: 'Bangchan, Stray Kids',
   },
   {
-    text: 'Peace comes from within. Do not seek it without.',
-    author: 'Buddha',
+    text: 'How do you know I am NoT BiG?',
+    author: 'BamBam, Got7',
   },
   {
-    text: 'What you give is what you get.',
-    author: 'Byron Pulsifer',
+    text: 'Mai mee Tang KaAaA.',
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: 'We can only learn to love by loving.',
-    author: 'Iris Murdoch',
+    text: 'Dibidibidis My name is Minho',
+    author: 'Minho, SHINee',
   },
   {
-    text: 'Life is change. Growth is optional. Choose wisely.',
-    author: 'Karen Clark',
+    text: 'Jimin you got no jams',
+    author: 'RM, BTS',
   },
   {
-    text: "You'll see it when you believe it.",
-    author: 'Wayne Dyer',
+    text: "RAp MonSTer",
+    author: 'RM, BTS, We Are Bulletproof, PT.2',
   },
   {
-    text: 'Today is the tomorrow we worried about yesterday.',
-    author: null,
+    text: 'Porronesian parrapio',
+    author: 'RM, BTS',
   },
   {
-    text: "It's easier to see the mistakes on someone else's paper.",
-    author: null,
+    text: "Yoo!Nice Paprika",
+    author: 'V, BTS',
   },
   {
-    text: 'Every man dies. Not every man really lives.',
-    author: null,
+    text: 'SexY PoRn StAr',
+    author: 'V, BTS',
   },
   {
-    text: 'To lead people walk behind them.',
-    author: 'Lao Tzu',
+    text: 'I am God',
+    author: 'V, BTS',
   },
   {
-    text: 'Having nothing, nothing can he lose.',
-    author: 'William Shakespeare',
+    text: 'Lachimolalala',
+    author: 'Jimin, BTS',
   },
   {
-    text: 'Trouble is only opportunity in work clothes.',
-    author: 'Henry J. Kaiser',
+    text: 'HEY CORDEN!Don’t worry,I’m not afraid!!',
+    author: 'Jimin, BTS',
   },
   {
-    text: 'A rolling stone gathers no moss.',
-    author: 'Publilius Syrus',
+    text: 'Papa Mochi',
+    author: 'Jimin, BTS',
   },
   {
-    text: 'Ideas are the beginning points of all fortunes.',
-    author: 'Napoleon Hill',
+    text: 'Here I come kickin’ the door',
+    author: 'Lisa, BLACKPINK, Kill This Love',
   },
   {
-    text: 'Everything in life is luck.',
-    author: 'Donald Trump',
+    text: 'Call me pretty and nasty',
+    author: 'Lisa, BLACKPINK, As If Its Your Last',
   },
   {
-    text: 'Doing nothing is better than being busy doing nothing.',
-    author: 'Lao Tzu',
+    text: 'I don’t want a boy, I need a man',
+    author: 'Lisa, BLACKPINK, BOOMBAYAH',
   },
   {
-    text: 'Trust yourself. You know more than you think you do.',
-    author: 'Benjamin Spock',
+    text: 'Yadom!',
+    author: 'Lisa, BLACKPINK',
   },
   {
-    text: 'Study the past, if you would divine the future.',
-    author: 'Confucius',
+    text: 'I told you to smile, but you just ignore my word',
+    author: 'Lisa, BLACKPINK',
   },
   {
-    text: 'The day is already blessed, find peace within it.',
-    author: null,
+    text: 'My mom said she adopted me form under a bridge.',
+    author: 'Yoongi',
   },
   {
-    text: 'From error to error one discovers the entire truth.',
-    author: 'Sigmund Freud',
+    text: 'Why are you here? My cheese-stick.',
+    author: 'Bangchan and Felix, Stray Kids',
   },
   {
-    text: 'Well done is better than well said.',
-    author: 'Benjamin Franklin',
+    text: 'Seungmin in the building!',
+    author: 'Seungmin, Stray Kids',
   },
   {
-    text: 'Bite off more than you can chew, then chew it.',
-    author: 'Ella Williams',
+    text: 'My name is…V, and I’m…good boy',
+    author: 'V, BTS',
   },
   {
-    text: 'Work out your own salvation. Do not depend on others.',
-    author: 'Buddha',
+    text: 'Not DANCE monster, I’m rap monster',
+    author: 'RM, BTS',
   },
   {
-    text: 'One today is worth two tomorrows.',
-    author: 'Benjamin Franklin',
+    text: 'Name is…Jungkook! Scale is…Jungkook! National…iNtErNaTiOnAl pLaY bOy!',
+    author: 'RM and Jungkook, BTS',
   },
   {
-    text: 'Once you choose hope, anythings possible.',
-    author: 'Christopher Reeve',
+    text: 'Hey, you wanna come in?',
+    author: 'Stray Kids, Back door',
   },
   {
-    text: 'God always takes the simplest way.',
-    author: 'Albert Einstein',
+    text: 'I can hear it callin’! From where you are, something in the way you wanna talk, Touch me, tease me, feel me up.',
+    author: 'Love Talk, WayV',
   },
   {
-    text: 'One fails forward toward success.',
-    author: 'Charles Kettering',
+    text: 'WORLD WIDE HANDSOME',
+    author: 'Jin, BTS',
   },
   {
-    text: 'From small beginnings come great things.',
-    author: null,
+    text: '3 DOLLA CHAIN YA KNOW?',
+    author: 'Yoongi, BTS',
   },
   {
-    text: 'Learning is a treasure that will follow its owner everywhere',
-    author: 'Chinese proverb',
+    text: 'I’m crying in the club, you’re in the club?',
+    author: 'Key, SHINee',
   },
   {
-    text: 'Be as you wish to seem.',
-    author: 'Socrates',
+    text: 'Im Jisoo, im okay',
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: 'The world is always in movement.',
-    author: 'V. Naipaul',
+    text: 'Ayo stop, let me put it down another way.',
+    author: 'SNSD, ‘I Got a Boy',
   },
   {
-    text: 'Never mistake activity for achievement.',
-    author: 'John Wooden',
+    text: 'Do u know what can i give lisa fpr her birthday present? I was Planning on giving her a big…slap on herself',
+    author: 'Jennie, BLACKPINK',
   },
   {
-    text: 'What worries you masters you.',
-    author: 'Haddon Robinson',
+    text: 'What am I suppose to twerk?',
+    author: 'Rose, BLACKPINK',
   },
   {
-    text: 'One faces the future with ones past.',
-    author: 'Pearl Buck',
+    text: 'SO I WANT EVERYBODY TO DANCE LIKE ITS YOUR LAST!!!!!',
+    author: 'Rose, BLACKPINK, Coachella',
   },
   {
-    text: 'Goals are the fuel in the furnace of achievement.',
-    author: 'Brian Tracy',
+    text: 'Go slowly pleceu',
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: 'Who sows virtue reaps honour.',
-    author: 'Leonardo da Vinci',
+    text: 'Knock knock, whos there? Boo.boo who? Awww dont cry',
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: 'Be kind whenever possible. It is always possible.',
-    author: 'Dalai Lama',
+    text: 'Hold up! I am a geek, the big paradox.',
+    author: 'Lee Yubin, Boca',
   },
   {
-    text: "Talk doesn't cook rice.",
-    author: 'Chinese proverb',
+    text: "Aamericanoo choaa choaa.",
+    author: 'Hyunjin, Stray Kids',
   },
   {
-    text: 'He is able who thinks he is able.',
-    author: 'Buddha',
+    text: 'Big Tiddie Gang',
+    author: 'BM, KARD',
   },
   {
-    text: 'A goal without a plan is just a wish.',
-    author: 'Larry Elder',
+    text: 'The possibility of all these possibilities being possible is just another possibility that could possibly happen.',
+    author: 'Mark Lee, NCT',
   },
   {
-    text: 'To succeed, we must first believe that we can.',
-    author: 'Michael Korda',
+    text: 'if yOu gUys arE mY bAbY giRls, does that mean I’m your……dAddY? mOvinG On!',
+    author: 'Bangchan, Stray Kids',
   },
   {
-    text: 'Learn from yesterday, live for today, hope for tomorrow.',
-    author: 'Albert Einstein',
+    text: 'AND SPRITE!',
+    author: 'J-Hope, BTS',
   },
   {
-    text: 'A weed is no more than a flower in disguise.',
-    author: 'James Lowell',
+    text: 'infires man yeah infires!',
+    author: 'Yoongi and Jungkook, BTS',
   },
   {
-    text: 'Do, or do not. There is no try.',
-    author: 'Yoda',
+    text: 'OI FELIX, C’MERE BRO!',
+    author: 'Bangchan, Stray Kids',
   },
   {
-    text: 'All serious daring starts from within.',
-    author: 'Harriet Beecher Stowe',
+    text: 'Soobin soobin you know soobin?',
+    author: 'Yeonjun, TXT',
   },
   {
-    text: 'The best teacher is experience learned from failures.',
-    author: 'Byron Pulsifer',
+    text: 'Global shookie',
+    author: 'Yeonjun, TXT',
   },
   {
-    text: 'Think how hard physics would be if particles could think.',
-    author: 'Murray Gell-Mann',
+    text: 'Uh and that’s a long ass ride',
+    author: 'Mark Lee, NCT',
   },
   {
-    text: "Love is the flower you've got to let grow.",
-    author: 'John Lennon',
+    text: "I’m Jisoo, I’m okay",
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: "Don't wait. The time will never be just right.",
-    author: 'Napoleon Hill',
+    text: "I’m sorry I just call it cat",
+    author: 'Lay, EXO',
   },
   {
-    text: 'Time is the wisest counsellor of all.',
-    author: 'Pericles',
+    text: 'Like mate, stop procrastinating!',
+    author: 'Bangchan, Stray Kids',
   },
   {
-    text: 'You give before you get.',
-    author: 'Napoleon Hill',
+    text: 'Opinionated, but I’m always spitting straight facts.',
+    author: 'Mark Lee, SUPERM',
   },
   {
-    text: 'Wisdom begins in wonder.',
-    author: 'Socrates',
+    text: 'Waeng!',
+    author: 'Beomgyu, TXT',
   },
   {
-    text: 'Without courage, wisdom bears no fruit.',
-    author: 'Baltasar Gracian',
+    text: 'Yes daddy!',
+    author: 'Felix, Stray Kids',
   },
   {
-    text: 'Change in all things is sweet.',
-    author: 'Aristotle',
+    text: 'Hello, I’m an alli-alligator',
+    author: 'Jooheon, Monsta X, Alligator',
   },
   {
-    text: 'What you fear is that which requires action to overcome.',
-    author: 'Byron Pulsifer',
+    text: 'I know, you know, we know, Lee know',
+    author: 'Lee Know, Stray Kids, The Tortoise and the Hare',
   },
   {
-    text: 'When performance exceeds ambition, the overlap is called success.',
-    author: 'Cullen Hightower',
+    text: 'I’ve been walking the cheese, that’s that queso',
+    author: 'Jaehyun, NCT, Regular',
   },
   {
-    text: 'When deeds speak, words are nothing.',
-    author: 'African proverb',
+    text: 'I’M NOT SCARY',
+    author: 'Jisoo, BLACKPINK',
   },
   {
-    text: 'Real magic in relationships means an absence of judgement of others.',
-    author: 'Wayne Dyer',
+    text: 'Oppa Gangnam Style',
+    author: 'PSY',
   },
   {
-    text: 'I never think of the future. It comes soon enough.',
-    author: 'Albert Einstein',
+    text: 'He is always no have girlfriend. He is always solo. He is want marry. But SHINee singing “Marry You” but my manager, Namgoong Euisoo, no marry. So sad.',
+    author: 'Taemin and Key, SHINee',
   },
   {
-    text: 'Skill to do comes of doing.',
-    author: 'Ralph Emerson',
+    text: 'Eww! Fruit! … Oh! Cookie!',
+    author: 'Ten, WayV',
   },
   {
-    text: 'Wisdom is the supreme part of happiness.',
-    author: 'Sophocles',
+    text: 'When I have a son, I’m gonna name him Eleven, because he’s gonna dance better than you.',
+    author: 'Yangyang, WayV',
   },
   {
-    text: 'I believe that every person is born with talent.',
-    author: 'Maya Angelou',
+    text: 'Im like TT, just like TT.',
+    author: 'Twice, TT',
   },
   {
-    text: 'Important principles may, and must, be inflexible.',
-    author: 'Abraham Lincoln',
+    text: 'So give it up give it up give it up for SHINee',
+    author: 'SHINee, Sherlock',
   },
   {
-    text: 'The undertaking of a new action brings new strength.',
-    author: 'Richard Evans',
+    text: 'My name is T to the A to the E (To the) Y to the A N G',
+    author: 'Taeyang, BigBang, Ringa Linga',
   },
   {
-    text: 'The years teach much which the days never know.',
-    author: 'Ralph Emerson',
+    text: 'Listen girls. My first love story',
+    author: 'Girls Generations, Gee',
   },
   {
-    text: 'Our distrust is very expensive.',
-    author: 'Ralph Emerson',
+    text: 'Because You Naughty Naughty, Hey Mr. Simple',
+    author: 'Super Juniors, Mr. Simple',
   },
   {
-    text: 'All know the way; few actually walk it.',
-    author: 'Bodhidharma',
+    text: 'Loverholic Robotronic ',
+    author: 'SHINee, Lucifer',
   },
   {
-    text: 'Great talent finds happiness in execution.',
-    author: 'Johann Wolfgang von Goethe',
+    text: 'Peaches and cream, Sweeter than sweet, Chocolate cheeks and chocolate wings.',
+    author: 'RM, BTS, Blood, Sweat, & Tears',
   },
   {
-    text: 'Faith in oneself is the best and safest course.',
-    author: 'Michelangelo',
+    text: 'Dont stop, lets bring it back to 140',
+    author: 'Girls Generation, I Got A Boy',
   },
   {
-    text: 'Courage is going from failure to failure without losing enthusiasm.',
-    author: 'Winston Churchill',
+    text: 'Wow, Fantastic Baby!',
+    author: 'BIGBANG, Fantastic Baby',
   },
-  {
-    text: 'The two most powerful warriors are patience and time.',
-    author: 'Leo Tolstoy',
-  },
-  {
-    text: 'Anticipate the difficult by managing the easy.',
-    author: 'Lao Tzu',
-  },
-  {
-    text: 'Those who are free of resentful thoughts surely find peace.',
-    author: 'Buddha',
-  },
-  {
-    text: 'A short saying often contains much wisdom.',
-    author: 'Sophocles',
-  },
-  {
-    text: 'It takes both sunshine and rain to make a rainbow.',
-    author: null,
-  },
-  {
-    text: 'A beautiful thing is never perfect.',
-    author: null,
-  },
-  {
-    text: 'Only do what your heart tells you.',
-    author: 'Princess Diana',
-  },
-  {
-    text: 'Life is movement-we breathe, we eat, we walk, we move!',
-    author: 'John Pierrakos',
-  },
-  {
-    text: 'No one can make you feel inferior without your consent.',
-    author: 'Eleanor Roosevelt',
-  },
-  {
-    text: 'Argue for your limitations, and sure enough theyre yours.',
-    author: 'Richard Bach',
-  },
-  {
-    text: 'Luck is what happens when preparation meets opportunity.',
-    author: 'Seneca',
-  },
-  {
-    text: 'Victory belongs to the most persevering.',
-    author: 'Napoleon Bonaparte',
-  },
-  {
-    text: 'Love all, trust a few, do wrong to none.',
-    author: 'William Shakespeare',
-  },
-  {
-    text: 'In order to win, you must expect to win.',
-    author: 'Richard Bach',
-  },
-  {
-    text: 'A goal is a dream with a deadline.',
-    author: 'Napoleon Hill',
-  },
-  {
-    text: 'You can do it if you believe you can!',
-    author: 'Napoleon Hill',
-  },
-  {
-    text: "Set your goals high, and don't stop till you get there.",
-    author: 'Bo Jackson',
-  },
-  {
-    text: 'Every new day is another chance to change your life.',
-    author: null,
-  },
-  {
-    text: 'Smile, breathe, and go slowly.',
-    author: 'Thich Nhat Hanh',
-  },
-  {
-    text: 'Nobody will believe in you unless you believe in yourself.',
-    author: 'Liberace',
-  },
-  {
-    text: 'Do more than dream: work.',
-    author: 'William Arthur Ward',
-  },
-  {
-    text: 'No man was ever wise by chance.',
-    author: 'Seneca',
-  },
-  {
-    text: 'Some pursue happiness, others create it.',
-    author: null,
-  },
-  {
-    text: 'He that is giddy thinks the world turns round.',
-    author: 'William Shakespeare',
-  },
-  {
-    text: "Don't ruin the present with the ruined past.",
-    author: 'Ellen Gilchrist',
-  },
-  {
-    text: 'Do something wonderful, people may imitate it.',
-    author: 'Albert Schweitzer',
-  },
-  {
-    text: 'We do what we do because we believe.',
-    author: null,
-  },
-  {
-    text: 'Do one thing every day that scares you.',
-    author: 'Eleanor Roosevelt',
-  },
-  {
-    text: 'If you cannot be silent be brilliant and thoughtful.',
-    author: 'Byron Pulsifer',
-  },
-  {
-    text: 'Who looks outside, dreams; who looks inside, awakes.',
-    author: 'Carl Jung',
-  },
-  {
-    text: 'What we think, we become.',
-    author: 'Buddha',
-  },
-  {
-    text: 'The shortest answer is doing.',
-    author: 'Lord Herbert',
-  },
-  {
-    text: 'All our knowledge has its origins in our perceptions.',
-    author: 'Leonardo da Vinci',
-  },
-  {
-    text: 'The harder you fall, the higher you bounce.',
-    author: null,
-  },
-  {
-    text: 'Trusting our intuition often saves us from disaster.',
-    author: 'Anne Wilson Schaef',
-  },
-  {
-    text: 'Truth is powerful and it prevails.',
-    author: 'Sojourner Truth',
-  },
-  {
-    text: 'Light tomorrow with today!',
-    author: 'Elizabeth Browning',
-  },
-  {
-    text: 'Silence is a fence around wisdom.',
-    author: 'German proverb',
-  },
-  {
-    text: 'Society develops wit, but its contemplation alone forms genius.',
-    author: 'Madame de Stael',
-  },
-  {
-    text: 'The simplest things are often the truest.',
-    author: 'Richard Bach',
-  },
-  {
-    text: 'Everyone smiles in the same language.',
-    author: null,
-  },
-  {
-    text: 'Yesterday I dared to struggle. Today I dare to win.',
-    author: 'Bernadette Devlin',
-  },
-  {
-    text: 'No alibi will save you from accepting the responsibility.',
-    author: 'Napoleon Hill',
-  },
-  {
-    text: 'If you can dream it, you can do it.',
-    author: 'Walt Disney',
-  },
-  {
-    text: 'It is better to travel well than to arrive.',
-    author: 'Buddha',
-  },
-  {
-    text: "Life shrinks or expands in proportion to one's courage.",
-    author: 'Anais Nin',
-  },
-  {
-    text: 'You have to believe in yourself.',
-    author: 'Sun Tzu',
-  },
-  {
-    text: 'Our intention creates our reality.',
-    author: 'Wayne Dyer',
-  },
-  {
-    text: 'Silence is a true friend who never betrays.',
-    author: 'Confucius',
-  },
-  {
-    text: 'Character develops itself in the stream of life.',
-    author: 'Johann Wolfgang von Goethe',
-  },
-  {
-    text: 'From little acorns mighty oaks do grow.',
-    author: 'American proverb',
-  },
-  {
-    text: "You can't stop the waves, but you can learn to surf.",
-    author: 'Jon Kabat-Zinn',
-  },
-  {
-    text: 'Reality does not conform to the ideal, but confirms it.',
-    author: 'Gustave Flaubert',
-  },
-  {
-    text: 'Speak low, if you speak love.',
-    author: 'William Shakespeare',
-  },
-  {
-    text: 'A really great talent finds its happiness in execution.',
-    author: 'Johann Wolfgang von Goethe',
-  },
-  {
-    text: 'Reality leaves a lot to the imagination.',
-    author: 'John Lennon',
-  },
-  {
-    text: 'The greatest remedy for anger is delay.',
-    author: 'Seneca',
-  },
-  {
-    text: 'Growth itself contains the germ of happiness.',
-    author: 'Pearl Buck',
-  },
-  {
-    text: "You can do what's reasonable or you can decide what's possible.",
-    author: null,
-  },
+
 ];
