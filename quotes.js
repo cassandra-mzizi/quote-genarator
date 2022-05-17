@@ -177,7 +177,7 @@ const localQuotes = [
   },
   {
     text: 'Knock knock, whos there? Boo.boo who? Awww dont cry',
-    author: 'Jisoo, BLACKPINK',
+    author: 'Rose, BLACKPINK',
   },
   {
     text: 'Hold up! I am a geek, the big paradox.',
@@ -217,7 +217,7 @@ const localQuotes = [
   },
   {
     text: 'Global shookie',
-    author: 'Yeonjun, TXT',
+    author: 'Soobin, TXT',
   },
   {
     text: 'Uh and that’s a long ass ride',
@@ -314,6 +314,10 @@ const localQuotes = [
   {
     text: 'Wow, Fantastic Baby!',
     author: 'BIGBANG, Fantastic Baby',
+  },
+  {
+    text: 'That is right tell em how it is thats right your my oppa. Who is my oppa? Well it is obviously Yuta. Yuta oppa',
+    author: 'Mark Lee, NCT',
   },
 
 ];
