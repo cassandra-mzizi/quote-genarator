@@ -7,7 +7,7 @@ const loader = document.getElementById('loader')
 
 // let apiQuotes = [];
 
-// Show loader
+/// Show loader
 function loading() {
     loader.hidden = false;
     quoteContainer.hidden = true;
