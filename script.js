@@ -49,9 +49,9 @@ function tweetQuote() {
 // Event Listeners
 twitterBtn.addEventListener('click', tweetQuote); 
 newQuoteBtn.addEventListener('click', newQuote);
-            /* // Get Quotes From API
+             // Get Quotes From API
 async function getQuotes () {
-    const apiUrl = 'https://type.fit/api/quotes';
+    const apiUrl = 'quote-genarator/quotes.js';
     try {
         const response = await fetch(apiUrl);
         localStorage = await response.json();
@@ -60,7 +60,7 @@ async function getQuotes () {
         // Catch Error Here
      }
 }
- */
+ 
             // On Load
 // getQuotes();
 newQuote(); 
